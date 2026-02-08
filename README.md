@@ -18,10 +18,10 @@ t = [dt:dt:pw]
 t = t - pw/2
 
 
-bit1 = exp(1*i* pi *slope *t.^2)
+bit1 = exp(1i * pi *slope *t.^2)
 
 
-bit0 = exp(-1*i *pi *slope *t.^2)
+bit0 = exp(-1i *pi *slope *t.^2)
 
 
 
