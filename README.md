@@ -12,12 +12,17 @@ bw = 12khz
 slope = bw/pw
 
 dt = 1/fs
+
 t = [dt:dt:pw]
+
 t = t - pw/2
+
 
 bit1 = exp(1*i*pi*slope*t.^2)
 
+
 bit0 = exp(-1*i*pi*slope*t.^2)
+
 
 
 need to find start of signal
